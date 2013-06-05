@@ -1,5 +1,12 @@
 = Premailer README
 
+=== Note:
+
+This is a ptched version of Premailer, which enables passing input encoding for the nokogiri adapter
+
+===== Example:
+<tt>Premailer.new(content, inputencoding: 'UTF-8').to_inline_css</tt>
+
 === What is this?
 
 For the best HTML e-mail delivery results, CSS should be inline. This is a 

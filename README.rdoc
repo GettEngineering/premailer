@@ -2,7 +2,7 @@
 
 === Note:
 
-This is a ptched version of Premailer, which enables passing input encoding for the nokogiri adapter
+This is a patched version of Premailer, which enables passing input encoding for the nokogiri adapter
 
 ===== Example:
 <tt>Premailer.new(content, inputencoding: 'UTF-8').to_inline_css</tt>
